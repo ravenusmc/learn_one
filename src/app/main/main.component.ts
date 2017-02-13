@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
+    games: string[];
 
-  constructor() { }
+  constructor() {
+      this.games = ['Zelda', 'Horizon Zero Dawn', 'Halo Wars 2', 'Mass Effect']
+  }
 
   ngOnInit() {
   }

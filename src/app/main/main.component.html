@@ -1,7 +1,10 @@
 <main>
     <h2>Basic Angular 2 Site</h2>
     <p>The purpose of this site is to learn Angular 2, I will mainly be focusing on components.</p>
-
+    <h3>Games I am Waiting for:</h3>
+    <ul class="gameslist cf">
+        <li class="gameslist-item cf" *ngFor="let item of games">{{item}}</li>
+    </ul>
     <div>
         <h3>Yeah, it is pretty basic but we all have to start somewhere!</h3>
     </div>
