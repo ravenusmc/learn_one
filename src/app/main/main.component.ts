@@ -8,6 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class MainComponent implements OnInit {
     games: string[];
 
+    onClick(e){
+        alert(e.target.innerHTML);
+    }
+
+    addGame(value){
+        if (value !==''){
+            this.games.push(value)
+        };
+    }
+
   constructor() {
       this.games = ['Zelda', 'Horizon Zero Dawn', 'Halo Wars 2', 'Mass Effect']
   }

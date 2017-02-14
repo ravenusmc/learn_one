@@ -2,8 +2,10 @@
     <h2>Basic Angular 2 Site</h2>
     <p>The purpose of this site is to learn Angular 2, I will mainly be focusing on components.</p>
     <h3>Games I am Waiting for:</h3>
+    <input class="search-input" #newgame>
+    <button class='btn' (click)="addGame(newgame.value)">Add Game</button>
     <ul>
-        <li *ngFor="let item of games">{{item}}</li>
+        <li (click)="onClick($event)" *ngFor="let game of games">{{game}}</li>
     </ul>
     <div>
         <h3>Yeah, it is pretty basic but we all have to start somewhere!</h3>
