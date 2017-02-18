@@ -1,5 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-    background-color: lightblue;
+    background-color: #000066;
+}
+
+main {
+    margin-left: 100px;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+footer {
+    margin-left: 100px;
+    padding-bottom: 10px;
+    font-style: italic;
+    background-color: #FFFFFF;
+    clear: both;
 }

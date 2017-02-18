@@ -1,12 +1,24 @@
-* {
+/** {
     box-sizing: border-box;
+}*/
+
+h1 {
+    padding-top: 10px;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EAEAEA;
 }
 
 .center {
     text-align: center;
 }
 
-.move_left {
+app-navbar {
     float: left;
-    margin-right: 10px;
+    width: 90px;
+    padding: 10px;
 }
