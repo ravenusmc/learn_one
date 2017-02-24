@@ -4,6 +4,8 @@
 
 h1 {
     padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: red;
 }
 
 #wrapper {
