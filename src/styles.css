@@ -17,3 +17,8 @@ footer {
     background-color: #FFFFFF;
     clear: both;
 }
+
+main img {
+    width: 300px;
+    height: 300px;
+}

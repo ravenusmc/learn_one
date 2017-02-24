@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class MainComponent implements OnInit {
     games: string[];
+    fullPath: string;
 
     onClick(e){
         alert(e.target.innerHTML);
