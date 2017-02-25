@@ -21,4 +21,4 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 
 ## Preview
 
-To see a video that talks about this project please go here: coming soon
+To see a video that talks about this project please go here: https://www.youtube.com/watch?v=iXR_q-gyJfg
